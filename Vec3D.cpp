@@ -12,10 +12,10 @@ double &Vec3D::operator[](int i)
 { return data[i]; }
 
 Vec3D &Vec3D::operator=(const Vec3D &v) {
-    data[0] = v.data[0];
-    data[1] = v.data[1];
-    data[2] = v.data[2];
-    return *this;
+  data[0] = v.data[0];
+  data[1] = v.data[1];
+  data[2] = v.data[2];
+  return *this;
 }
 
 Vec3D Vec3D::operator+(const Vec3D& v)
